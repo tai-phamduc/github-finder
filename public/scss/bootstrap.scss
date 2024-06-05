@@ -1,0 +1,25 @@
+$primary: #1A237E;
+$secondary: #FFB74D;
+$dark: rgba(20,20,20,0.5);
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4.5,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 8,
+  10: $spacer * 12
+);
+
+$input-focus-box-shadow: none;
+
+$navbar-nav-link-padding-x: 1rem;
+$navbar-light-active-color: $primary;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"

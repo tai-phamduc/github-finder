@@ -1,0 +1,14 @@
+.avatar {
+  width: 80px;
+  border-radius: 50%;
+}
+
+#search-form input {
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+}
+
+#search-form button[type="submit"] {
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}
